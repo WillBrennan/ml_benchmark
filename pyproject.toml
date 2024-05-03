@@ -6,8 +6,13 @@ authors = ["Will Brennan <WillBrennan@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-
+python = "^3.11"
+fire = "^0.6.0"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+onnx = "^1.16.0"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
 
 [build-system]
 requires = ["poetry-core"]
